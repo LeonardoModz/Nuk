@@ -14,12 +14,12 @@
 
 🔗 CLONE O REPOSITÓRIO USANDO ESTE LINK
 ```bash
-git clone https://github.com/LeonardoModz/Nuker
+git clone https://github.com/LeonardoModz/Nukerr
 ```
 
 ♦ ABRA O PROJETO EM SEU TERMINAL
 ```bash
-cd Nuker
+cd Nukerr
 ```
 
 ⚡ INSTALE PACOTES PYTHON USANDO PIP
