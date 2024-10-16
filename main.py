@@ -56,7 +56,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                `             '
 
                                
-                      > Press Enter
+                      > PRECIONE ENTER
 '''
 def print_logo():
     System.Clear()
@@ -69,7 +69,7 @@ def print_logo():
         ██║  ██║   ██║   ╚█████╔╝██║ ╚═╝ ██║██║╚█████╔╝
         ╚═╝  ╚═╝   ╚═╝    ╚════╝ ╚═╝     ╚═╝╚═╝ ╚════╝
 
-    >BOT BY https://t.me/LEOMODZOFC'''
+    > ATOMIC NUKER BY https://t.me/LEOMODZOFC'''
     b = Colorate.Vertical(Colors.DynamicMIX((Col.green, Col.light_green, Col.yellow)), Center.XCenter(banner))
     # Write.Print(text=banner, interval=0.0005, color=Colors._)
     print(b)
@@ -1519,16 +1519,16 @@ async def proxies():
 async def main_menu():
     print_logo()
     menu_txt = '''
-        << Main Category >> 
-        1. Discord Webhook Tools
-        2. Discord Token Tools
-        3. Proxy Scrapper
-        4. Exit
+        << Categoria principal >> 
+        1. Ferramentas de webhook do Discord
+        2. Ferramentas de token de Discord
+        3. Raspador de proxy
+        4. Sair
         
 
     '''
     Write.Print(menu_txt, Colors.yellow_to_green, interval=0.003)
-    print_("[~] Choose an Option")
+    print_("[~] Escolha uma opção")
     choice = input_()
     if not choice in ['1', '2', '3', '4']:
         await main_menu()
