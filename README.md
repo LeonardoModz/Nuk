@@ -19,7 +19,7 @@ git clone https://github.com/LeonardoModz/Nuker
 
 ♦ ABRA O PROJETO EM SEU TERMINAL
 ```bash
-cd Atomic
+cd Nuker
 ```
 
 ⚡ INSTALE PACOTES PYTHON USANDO PIP
