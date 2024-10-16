@@ -13,7 +13,7 @@ import base64
 from datetime import datetime
 
 System.Clear()
-System.Title("ATOMIC - By M. logique")
+System.Title("ATOMIC - By LEO MODS")
 lllll = ['proxies.txt', 'webhooks.txt', 'tokens.txt']
 if not os.path.exists('./Atomic'):
     os.system('md Atomic')
@@ -64,12 +64,12 @@ def print_logo():
 
          █████╗ ████████╗ █████╗ ███╗   ███╗██╗ █████╗ 
         ██╔══██╗╚══██╔══╝██╔══██╗████╗ ████║██║██╔══██╗ 
-        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by M. logique
+        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by LEO MODS
         ██╔══██║   ██║   ██║  ██║██║╚██╔╝██║██║██║  ██╗
         ██║  ██║   ██║   ╚█████╔╝██║ ╚═╝ ██║██║╚█████╔╝
         ╚═╝  ╚═╝   ╚═╝    ╚════╝ ╚═╝     ╚═╝╚═╝ ╚════╝
 
-    > github.com/M-logique'''
+    >BOT BY https://t.me/LEOMODZOFC'''
     b = Colorate.Vertical(Colors.DynamicMIX((Col.green, Col.light_green, Col.yellow)), Center.XCenter(banner))
     # Write.Print(text=banner, interval=0.0005, color=Colors._)
     print(b)
