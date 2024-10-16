@@ -1,4 +1,4 @@
-from python import *
+from pystyle import *
 import os
 # from colorama import *
 import asyncio
