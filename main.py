@@ -13,7 +13,7 @@ import base64
 from datetime import datetime
 
 System.Clear()
-System.Title("ATOMIC - By LEO MODS")
+System.Title("ATOMIC - By M. logique")
 lllll = ['proxies.txt', 'webhooks.txt', 'tokens.txt']
 if not os.path.exists('./Atomic'):
     os.system('md Atomic')
@@ -56,7 +56,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                `             '
 
                                
-                      > PRECIONE ENTER
+                      > Press Enter
 '''
 def print_logo():
     System.Clear()
@@ -64,12 +64,12 @@ def print_logo():
 
          █████╗ ████████╗ █████╗ ███╗   ███╗██╗ █████╗ 
         ██╔══██╗╚══██╔══╝██╔══██╗████╗ ████║██║██╔══██╗ 
-        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by LEO MODS
+        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by M. logique
         ██╔══██║   ██║   ██║  ██║██║╚██╔╝██║██║██║  ██╗
         ██║  ██║   ██║   ╚█████╔╝██║ ╚═╝ ██║██║╚█████╔╝
         ╚═╝  ╚═╝   ╚═╝    ╚════╝ ╚═╝     ╚═╝╚═╝ ╚════╝
 
-    > ATOMIC NUKER BY https://t.me/LEOMODZOFC'''
+    > github.com/M-logique'''
     b = Colorate.Vertical(Colors.DynamicMIX((Col.green, Col.light_green, Col.yellow)), Center.XCenter(banner))
     # Write.Print(text=banner, interval=0.0005, color=Colors._)
     print(b)
@@ -1519,16 +1519,16 @@ async def proxies():
 async def main_menu():
     print_logo()
     menu_txt = '''
-        << Categoria principal >> 
-        1. Ferramentas de webhook do Discord
-        2. Ferramentas de token de Discord
-        3. Raspador de proxy
-        4. Sair
+        << Main Category >> 
+        1. Discord Webhook Tools
+        2. Discord Token Tools
+        3. Proxy Scrapper
+        4. Exit
         
 
     '''
     Write.Print(menu_txt, Colors.yellow_to_green, interval=0.003)
-    print_("[~] Escolha uma opção")
+    print_("[~] Choose an Option")
     choice = input_()
     if not choice in ['1', '2', '3', '4']:
         await main_menu()
