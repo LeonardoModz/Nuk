@@ -13,7 +13,7 @@ import base64
 from datetime import datetime
 
 System.Clear()
-System.Title("ATOMIC - By M. logique")
+System.Title("ATOMIC - By LEO MODS")
 lllll = ['proxies.txt', 'webhooks.txt', 'tokens.txt']
 if not os.path.exists('./Atomic'):
     os.system('md Atomic')
@@ -56,7 +56,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                `             '
 
                                
-                      > Press Enter
+                      > PRECIONE ENTER
 '''
 def print_logo():
     System.Clear()
@@ -64,12 +64,12 @@ def print_logo():
 
          █████╗ ████████╗ █████╗ ███╗   ███╗██╗ █████╗ 
         ██╔══██╗╚══██╔══╝██╔══██╗████╗ ████║██║██╔══██╗ 
-        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by M. logique
+        ███████║   ██║   ██║  ██║██╔████╔██║██║██║  ╚═╝  by LEO MODS
         ██╔══██║   ██║   ██║  ██║██║╚██╔╝██║██║██║  ██╗
         ██║  ██║   ██║   ╚█████╔╝██║ ╚═╝ ██║██║╚█████╔╝
         ╚═╝  ╚═╝   ╚═╝    ╚════╝ ╚═╝     ╚═╝╚═╝ ╚════╝
 
-    > github.com/M-logique'''
+    > https://t.me/LEOMODZOFC'''
     b = Colorate.Vertical(Colors.DynamicMIX((Col.green, Col.light_green, Col.yellow)), Center.XCenter(banner))
     # Write.Print(text=banner, interval=0.0005, color=Colors._)
     print(b)
@@ -137,15 +137,15 @@ Anime.Fade(Center.Center(intro), Colors.yellow_to_green, Colorate.Vertical, inte
 async def webhookTools():
     print_logo()
     webhook_txt = '''
-        << Webhooks Category >> 
-        1. Spam with only 1 webhook
-        2. Spam with +1 webhooks (By using webhooks.txt)
-        3. Delete Webhook
-        4. Delete Webhooks (By using webhooks.txt)
-        5. Check Webhook 
-        6. Check Webhooks (By using webhooks.txt)
-        7. Back to main menu
-        8. Exit
+        << Categoria Webhooks >> 
+        1. Spam com apenas 1 webhook
+        2. Spam com +1 webhooks (usando webhooks.txt)
+        3. Excluir Webhook
+        4. Excluir Webhooks (usando webhooks.txt)
+        5. Verifique o Webhook 
+        6. Verifique Webhooks (usando webhooks.txt)
+        7. Voltar ao menu principal
+        8. Saur
     '''
     Write.Print(webhook_txt, Colors.yellow_to_green, interval=0.003)
     print_("[~/Webhooks] Choose an Option")
