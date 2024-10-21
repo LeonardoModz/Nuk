@@ -426,16 +426,9 @@ async def tokenTools():
             else: return kh
     print_logo()
     tokens_txt = '''
-                                               << Tokens Category >>
+                                               << CATEGORIA TOKEN >>
                           
-  >> Multi Token Raiding         >> Single Token Nuking         >> Account Nuking                >> Tools
-  1. Spam in one channel         8.  Webhook Spam Channels      15. Remove all friends           22. Check Token
-  2. Spam in all channels        9.  Mass Create Roles          16. Block all friends            23. Check Tokens
-  3. Add Reaction to a Message   10. Mass Create channels       17. Leave all servers            24. Get Guild info
-  4. Join to a server            11. Delete all channels        18. Cycle Token Settings         25. Get Token Info
-  5. Leave a server              12. Delete all roles           19. Mass dm                      26. Get Tokens Info
-  6. Change Nickname             13. Remove all Emojis          20. Close all Dms                27. Back to Main Menu
-  7. Change Status               14. Change server icon         21. Delete all personal guilds   28. Exit
+ > Multi Token Raiding >> Nuking de token único >> Nuking de conta >> Ferramentas 1. Spam em um canal 8. Canais de spam do Webhook 15. Remover todos os amigos 22. Verificar token 2. Spam em todos os canais 9. Criação de funções em massa 16. Bloquear todos os amigos 23. Verificar tokens 3. Adicionar reação a uma mensagem 10. Criar canais em massa 17. Sair de todos os servidores 24. Obter informações da guilda 4. Junte-se a um servidor 11. Exclua todos os canais 18. Ciclo de configurações do token 25. Obtenha informações do token 5. Saia de um servidor 12. Exclua todas as funções 19. Mass dm 26. Obtenha informações de tokens 6. Alterar apelido 13. Remover todos os Emojis 20. Fechar todos os Dms 27. Voltar ao menu principal 7. Alterar status 14. Alterar ícone do servidor 21. Excluir todas as guildas pessoais 28. Sair
 
     '''
     Write.Print(tokens_txt, Colors.yellow_to_green, interval=0.0005)
